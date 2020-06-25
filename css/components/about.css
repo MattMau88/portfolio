@@ -1,0 +1,169 @@
+#about-me {
+padding-top: 10px;
+padding-bottom: 70px;
+}
+
+.about-container {
+  display: flex;
+  background-color: #dde5ee;
+}
+
+.wrapper {
+  column-count: 2;
+  column-gap: 50px;
+  padding: 50px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  float: left;
+  shape-outside: inset(1% round 50%);
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.code-image {
+  border-radius: 50%;
+  width: 150px;
+  float: right;
+  shape-outside: inset(1% round 50%);
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/*.avatar-large {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  border: white 5px solid;
+}*/
+
+.about-left-container {
+  flex: 0 0 50%;
+}
+
+.profile-right {
+  padding-left: 25px;
+}
+
+.profile-left {
+  padding-left: 25px;
+}
+
+.about-title {
+  font-weight: 800;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 2;
+}
+
+.about-title-2 {
+  font-weight: 700;
+  font-size: 20px;
+  /*padding-top: 15px;*/
+}
+
+.about-title-3 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.about-title-4 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.about-paragraph {
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(0,0,0,0.6);
+  text-align: justify;
+}
+
+.about-paragraph2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0,0,0,0.6);
+}
+
+.about-paragraph-special {
+  font-weight: 600;
+  font-size: 15px;
+  color: #4bbc8b;
+}
+
+
+
+.about-right {
+  padding-top: 55px;
+}
+
+.about-link {
+  color: #014a7b;
+}
+
+.about-link:hover {
+  color: #b01633;
+}
+
+
+
+#myBtn {
+   border: 0px solid transparent;
+   color: rgba(0,0,0,0.6);
+   border-radius: 10px;
+   margin-bottom: 15px;
+   font-size: 14px;
+   padding: 10px 10px 3px 10px;
+}
+
+.card-body-about {
+  -webkit-box-shadow: 0px 30px 120px 0px #dde5ee;
+  box-shadow: 0px 30px 120px 0px #dde5ee;
+  margin-top: 45px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.flags {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+.flags img {
+  height: 20px;
+  width: 20px;
+}
+
+.list-inline-item-1 {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.btn-outline-custom4 {
+    background-color: #4bbc8b;
+    color: #ffffff;
+    border-color: #4bbc8b;
+    border-radius: 5px;
+    padding: 1px 100px;
+    cursor: pointer;
+}
+
+
+.btn-outline-custom4:hover {
+  background-color: #4bbc8b;
+  color: #ffffff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+

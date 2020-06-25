@@ -1,0 +1,11 @@
+.contact-title {
+  font-weight: 800;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 2;
+}
+
+#contact-icon {
+  font-size: 30px;
+}
