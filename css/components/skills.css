@@ -1,3 +1,8 @@
+#skills {
+  background-color: #E5E5E5;
+  padding-bottom: 30px;
+}
+
 .skill-item {
   font-size: 14px;
   margin-right: 6px;
@@ -7,17 +12,18 @@
   border-radius: 50px;
 }
 
-#topskills {
-  background-color: #f4f9ff;
-  padding-bottom: 70px;
-}
-
 .skills-title {
   font-weight: 800;
   font-size: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   line-height: 2;
+}
+
+.skills-subtitle {
+  color: #14213D;
+  line-height: 2;
+  margin-top: 30px;
 }
 
 .skills-card {
@@ -71,15 +77,6 @@
   color: rgba(0,0,0,0.6);
 }
 
-
-
-
-
-
-#skills {
-  background-color: #f4f9ff;
-  padding-bottom: 10px;
-}
 
 #skills-2 {
   text-align: center;
@@ -157,6 +154,7 @@
 .soft-skill-paragraph {
   font-size: 17px;
   font-weight: 500;
+  color: #14213D;
 }
 
 

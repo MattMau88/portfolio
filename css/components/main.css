@@ -6,11 +6,13 @@
     padding-left: 15px;
 }*/
 
-
+h4 {
+  color: #14213D;
+}
 
 
 .btn.btn-outline-secondary {
-    margin-top: 100px;
+    margin-top: 50px;
     color: #6c757d;
     border-color: #6c757d;
     border-radius: 15px;

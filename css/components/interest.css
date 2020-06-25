@@ -1,6 +1,6 @@
 #interest {
-  padding-bottom: 60px;
-  padding-top: 40px;
+  background-color: #E5E5E5;
+  padding-bottom: 30px;
 }
 
 .interest-title {
@@ -17,6 +17,7 @@
   transition: box-shadow 0.3s ease-in-out;
   font-size: 20px;
   font-weight: 600;
+  color: #14213D;
 }
 
 
@@ -26,6 +27,7 @@
   transition: box-shadow 0.3s ease-in-out;
   font-size: 20px;
   font-weight: 600;
+  color: #14213D;
 }
 
 .highlighted-3 {
@@ -34,4 +36,5 @@
   transition: box-shadow 0.3s ease-in-out;
   font-size: 20px;
   font-weight: 600;
+  color: #14213D;
 }

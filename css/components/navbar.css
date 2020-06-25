@@ -1,4 +1,4 @@
-  nav {
+nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -24,14 +24,14 @@ nav .logo {
 nav .logo img {
   transition: .5S;
   height: 40px;
-  padding-top: 5px;
+  padding-top: 12px;
 
 }
 
 nav.white .logo img {
   transition: .5S;
-  height: 30px;
-  padding-top: 5px;
+  height: 40px;
+  padding-top: 12px;
 }
 
 nav ul {

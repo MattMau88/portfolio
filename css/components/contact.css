@@ -1,3 +1,7 @@
+#contact {
+  padding-bottom: 30px;
+}
+
 .contact-title {
   font-weight: 800;
   font-size: 30px;
@@ -8,4 +12,5 @@
 
 #contact-icon {
   font-size: 30px;
+  color: #14213D;
 }
