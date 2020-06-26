@@ -30,6 +30,10 @@
     transition: all .5s ease;
 }
 
+.project-card:hover {
+    box-shadow: 0 5px 5px rgba(252,163,17,0.5), 0 5px 5px rgba(252,163,17,0.5);
+}
+
 .project-card--left {
     padding: 1rem;
     background-color: #CAE8FD;
@@ -47,7 +51,8 @@
 }
 
 .project-header {
-  color: #14213D;
+  color: #FCA311;
+  text-shadow: 0.5px 0.5px #14213D;
 }
 
 .project-card--right {
@@ -91,7 +96,7 @@
     font-size: 1rem;
     color: #FFFFFF;
     box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.2);
-    background-color: #14213D;
+    background-color: #FCA311;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,74 +104,50 @@
 }
 
 .github-project:hover, .website-project:hover {
-  color: #FCA311;
-}
-
-/* #Tablet (Portrait) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  .container {
-    width: 768px;
-  }
+  color: #CAE8FD;
 }
 
 
-/*  #Mobile (Portrait) - Note: Design for a width of 320px */
-@media only screen and (max-width: 767px) {
-  .container {
-    width: 95%;
+@media only screen and (max-width: 768px) {
+  #project-content {
+    border-radius: 5px 5px 0px 0px;
+    float: none;
+    flex-direction: column-reverse;
   }
-
-  #portfoliolist .portfolio {
-    width: 48%;
-    margin:1%;
-  }
-
-  #ads {
-    display:none;
-  }
-
 }
 
-
-/* #Mobile (Landscape) - Note: Design for a width of 480px */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .container {
-    width: 70%;
+@media only screen and (max-width: 768px) {
+  .project-card {
+    border-radius: 5px 5px 0px 0px;
+    float: none;
+    flex-direction: column-reverse;
   }
-
-  #ads {
-    display:none;
-  }
-
 }
 
-/* #Clearing */
-
-/* Self Clearing Goodness */
-.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
-
-.clearfix:before,
-.clearfix:after,
-.row:before,
-.row:after {
-  content: '\0020';
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0; }
-.row:after,
-.clearfix:after {
-  clear: both; }
-.row,
-.clearfix {
-  zoom: 1; }
-
-.clear {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
+@media only screen and (max-width: 768px) {
+  .project-header {
+  text-align: center;
+  }
 }
+
+@media only screen and (max-width: 768px) {
+  .project-card--right {
+    border-radius: 5px 5px 0px 0px;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #project-content {
+    border-radius: 5px 5px 0px 0px;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project-card .project-card--right img {
+    border-radius: 5px 5px 0px 0px;
+    float: none;
+  }
+}
+

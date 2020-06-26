@@ -23,16 +23,16 @@ nav .logo {
 }
 
 nav .logo img {
-  transition: .5S;
+  transition: .2S;
   height: 40px;
-  padding-top: 12px;
+  padding-top: 4px;
 
 }
 
 nav.white .logo img {
-  transition: .5S;
+  transition: .2S;
   height: 40px;
-  padding-top: 12px;
+  padding-top: 4px;
 }
 
 nav ul {
@@ -135,6 +135,7 @@ nav.white ul li a:hover {
   .responsive-bar .logo img {
      float: left;
      height: 40px;
+     padding-top: 4px;
   }
 
   .responsive-bar .menu h4 {
@@ -156,6 +157,8 @@ nav.white ul li a:hover {
 
   nav.logo {
     display: none;
+    height: 40px;
+    padding-top: 4px;
   }
 
   nav ul {
