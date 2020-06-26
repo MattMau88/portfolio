@@ -3,6 +3,7 @@
 }
 
 .contact-title {
+  color: #14213D;
   font-weight: 800;
   font-size: 30px;
   padding-top: 20px;
@@ -13,4 +14,9 @@
 #contact-icon {
   font-size: 30px;
   color: #14213D;
+}
+
+#contact-icon:hover {
+  font-size: 30px;
+  color: #FCA311;
 }

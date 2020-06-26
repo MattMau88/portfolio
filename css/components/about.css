@@ -16,6 +16,7 @@ padding-bottom: 30px;
 
 .profile-image {
   border-radius: 50%;
+  box-shadow: 0 0 10px 3px rgba(0,0,0,0.2);
   width: 150px;
   float: left;
   shape-outside: inset(1% round 50%);
@@ -25,6 +26,7 @@ padding-bottom: 30px;
 
 .code-image {
   border-radius: 50%;
+  box-shadow: 0 0 10px 3px rgba(0,0,0,0.2);
   height: 150px;
   float: right;
   shape-outside: inset(1% round 50%);
@@ -46,6 +48,7 @@ padding-bottom: 30px;
 }
 
 .about-title {
+  color: #14213D;
   font-weight: 800;
   font-size: 30px;
   padding-top: 20px;
@@ -72,7 +75,7 @@ padding-bottom: 30px;
 .about-paragraph {
   font-weight: 400;
   font-size: 15px;
-  color: rgba(0,0,0,0.6);
+  color: rgba(20,33,61,0.6);
   text-align: justify;
 }
 
@@ -93,11 +96,11 @@ padding-bottom: 30px;
 }
 
 .about-link {
-  color: #014a7b;
+  color: #14213D;
 }
 
 .about-link:hover {
-  color: #b01633;
+  color: #FCA311;
 }
 f
 

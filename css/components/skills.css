@@ -1,5 +1,5 @@
 #skills {
-  background-color: #E5E5E5;
+  background-color: #CAE8FD;
   padding-bottom: 30px;
 }
 
@@ -13,6 +13,7 @@
 }
 
 .skills-title {
+  color: #14213D;
   font-weight: 800;
   font-size: 30px;
   padding-top: 20px;
@@ -24,6 +25,16 @@
   color: #14213D;
   line-height: 2;
   margin-top: 30px;
+}
+
+.skills-item {
+  font-size: 14px;
+  margin-right: 6px;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+  border: 1px solid #14213D;
+  color: #14213D;
+  border-radius: 50px;
 }
 
 .skills-card {
@@ -126,7 +137,6 @@
     animation-iteration-count: 1;
 }
 
-<!--Start of Tawk.to Script
 
 .skills-left {
   padding-left: 39px;

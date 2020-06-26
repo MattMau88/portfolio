@@ -48,12 +48,14 @@
   font-weight: 700;
   font-family: inherit;
   color: white;
+  text-shadow: 1px 1px #14213D;
 }
 
 .banner-title-2 {
   font-size: 26px;
   font-weight: 400;
   color: white;
+  text-shadow: 1px 1px #14213D;
 }
 
 .banner {
@@ -67,6 +69,7 @@
 
 .btn.btn-outline-custom1 {
     color: #ffffff;
+    font-weight: bold;
     border-color: #ffffff;
     border-radius: 10px;
     box-shadow: 2px 4px 6px rgba(0,0,0,0.1), 4px 4px 6px rgba(0,0,0,0.2);
@@ -79,7 +82,7 @@
 .btn.btn-outline-custom1:hover {
   border-color: #fff;
   background-color: #fff;
-  color: #000;
+  color: #14213D;
 }
 
 
@@ -109,32 +112,6 @@
     z-index: 2;
 }
 
-.infos-banner {
-    position: absolute;
-    left: 70px;
-    top: 270px;
-    font-size: 16px;
-    font-style: italic;
-}
-
-.infos-banner-1 {
-    position: absolute;
-    left: 70px;
-    top: 290px;
-    font-size: 16px;
-    line-height: 2;
-    font-style: italic;
-}
-
-.infos-banner-2 {
-    position: absolute;
-    left: 70px;
-    top: 310px;
-    font-size: 16px;
-    line-height: 2;
-    font-style: italic;
-}
-
 .custom-border {
   box-sizing: border-box;
   border: 0.5px solid #cecece;
@@ -147,20 +124,11 @@
   padding-top: 25px;
 }
 
-.paragraph-infos {
-  text-align: center;
-  padding-left: 16%;
-  color: #000;
-
-}
 
 .paragraph-infos:hover {
   color: #014a7b;
 }
 
-.paragraph-infos-1 {
-  text-align: center;
-}
 
 
 
