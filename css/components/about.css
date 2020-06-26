@@ -32,10 +32,6 @@ padding-bottom: 30px;
   margin-bottom: 10px;
 }
 
-/*.avatar-large {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-  border: white 5px solid;
-}*/
 
 .about-left-container {
   flex: 0 0 50%;
@@ -92,8 +88,6 @@ padding-bottom: 30px;
   color: #4bbc8b;
 }
 
-
-
 .about-right {
   padding-top: 55px;
 }
@@ -105,17 +99,7 @@ padding-bottom: 30px;
 .about-link:hover {
   color: #b01633;
 }
-
-
-
-#myBtn {
-   border: 0px solid transparent;
-   color: rgba(0,0,0,0.6);
-   border-radius: 10px;
-   margin-bottom: 15px;
-   font-size: 14px;
-   padding: 10px 10px 3px 10px;
-}
+f
 
 .card-body-about {
   -webkit-box-shadow: 0px 30px 120px 0px #dde5ee;
@@ -125,20 +109,6 @@ padding-bottom: 30px;
   padding-left: 20px;
   padding-top: 20px;
   padding-right: 20px;
-}
-
-.flags {
-    font-weight: 400;
-    font-size: 15px;
-    color: rgba(0,0,0,0.6);
-    margin-top: 10px;
-    font-style: italic;
-}
-
-
-.flags img {
-  height: 20px;
-  width: 20px;
 }
 
 .list-inline-item-1 {
