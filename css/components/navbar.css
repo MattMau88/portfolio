@@ -52,7 +52,7 @@ nav ul li a {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  padding: 5px 10px;
+  padding: 0px 10px;
   text-decoration: none;
   text-transform: uppercase;
   transition: .5s;
@@ -77,7 +77,7 @@ nav.white ul li a {
   font-size: 16px;
   font-weight: 500;
   line-height: 50px;
-  padding: 5px 10px;
+  padding: 0px 10px;
   transition: .5S;
 }
 
@@ -125,9 +125,11 @@ nav.white ul li a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 5px 10px;
+    padding: 0px 10px;
     box-sizing: border-box;
     z-index: 3;
+    border-bottom: 1px solid #14213D;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   }
 
   .responsive-bar .logo img {
