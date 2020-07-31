@@ -47,12 +47,13 @@
     margin: 0.5rem 0;
     padding: 0px;
     display: list-item;
+    list-style-type: disc;
     text-align: -webkit-match-parent;
 }
 
 .project-header {
   color: #FCA311;
-  text-shadow: 0.5px 0.5px #14213D;
+  text-shadow: 1px #14213D;
 }
 
 .project-card--right {
@@ -71,7 +72,7 @@
 
 .project-card--right--cta {
     width: 100%;
-    z-index: 100;
+    /*z-index: 100;*/
     position: absolute;
     bottom: 1rem;
     display: flex;

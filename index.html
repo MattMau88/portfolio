@@ -1,12 +1,24 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Matthias Mau </title>
+  <title>Matthias Mau | Profile & Portfolio</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <meta name="description" content="Matthias Mau | Profile & Portfolio"/>
+
+  <meta property="og:title" content="Matthias Mau | Profile & Portfolio" />
+  <meta property="og:description" content="Personal website profile including portfolio of projects" />
+  <meta property="og:url" content="https://mattmau88.github.io/portfolio/" />
+  <meta property="og:image" content="images/thumbnail.png" />
+
+  <meta property='og:title' content='Matthias Mau | Profile & Portfolio'/>
+  <meta property='og:image' content='//images/thumbnail.png'/>
+  <meta property='og:description' content='Personal website profile including portfolio of projects'/>
+  <meta property='og:url' content='//mattmau88.github.io/portfolio/'/>
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i,800" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -22,26 +34,30 @@
 
 <body>
 
-  <div class="responsive-bar">
-      <div class="logo">
-         <img src="images/matt_logo_blue.png">
-      </div>
-      <div class="menu">
-          <h4>Menu</h4>
-      </div>
-  </div>
+  <div class="nav-wrapper">
 
-  <nav>
-    <div class="logo">
-      <img src="images/matt_logo_white.png">
+    <div class="responsive-bar">
+        <div class="logo">
+           <a href="#"><img src="images/matt_logo_blue.png"></a>
+        </div>
+        <div class="menu">
+            <h4>Menu</h4>
+        </div>
     </div>
-    <ul >
-        <li><a href="#section-1">About Me</a></li>
-        <li><a href="#section-2">Skills</a></li>
-        <li><a href="#section-3">Portfolio</a></li>
-        <li><a href="#section-5">Contact</a></li>
-    </ul>
-  </nav>
+
+    <nav>
+      <div class="logo">
+        <a href="#"><img src="images/matt_logo_white.png"></a>
+      </div>
+      <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+  </div>
 
 
 
@@ -49,14 +65,14 @@
     <div class="container">
       <h1 class="banner-title-1">Matthias Mau</h1>
       <h2 class="banner-title-2">Digital Consultant | Full Stack Web Developer | Tech Project & Product Manager </h2>
-      <a class="btn btn-outline-custom1" href="#section-0"> View More </a>
-      <a class="btn btn-outline-custom1" href="mailto:matthias.mau@outlook.com"> Contact Me</a>
+      <a class="btn btn-outline-custom1" href="#about-me"> View More </a>
+      <a class="btn btn-outline-custom1" href="mailto:matthias.mau@outlook.com?Subject=[Website Contact Request]"> Contact Me </a>
     </div>
   </div>
 
 
  <section id="intro">
-  <a id="section-0"></a>
+  <a id="intro"></a>
    <div class="container">
     <div class="cards">
       <div class="acard">
@@ -65,11 +81,11 @@
       </div>
       <div class="acard">
         <img src="images/statistics.svg" alt="">
-          <h4>Data Driven<h4>
+          <h4>Data Driven Decision Taking<h4>
       </div>
       <div class="acard">
         <img src="images/bulb.svg" alt="">
-        <h4>Plan, Implement & Learn<h4>
+        <h4>Plan, Do & Learn Approach<h4>
       </div>
     </div>
    </div>
@@ -78,7 +94,7 @@
   <hr align="center" width="80%" color="#fafafa" size="0.5">
 
  <section id="about-me">
- <a id="section-1"></a>
+ <a id="about-me"></a>
    <div class="container">
     <h1 class="about-title">About Me</h1>
 
@@ -86,29 +102,31 @@
 
         <div class="col-sm-6 col-md-6">
           <img src='images/matt-profile.png' class="profile-image"/>
-          <p class="about-paragraph">Hi, I'm Matt. I am eager to support organisations and individuals on their digital journeys. Appreciating to leverage technical capabilities and opportunities, I enjoy collaborating with cross-functional teams including diverse members and stakeholders. Moreover, as a <strong>Full Stack Developer</strong> I also enjoy designing, building and managing digital products and services hands-on.</p>
-          <p class="about-paragraph">I have an <strong>international background</strong>, cross-cultural understanding and global mindset resulting from both educational and professional experiences in several countries across Europe, North America and Asia, and I am experienced as <strong>Consultant</strong>, Operations and Project Manager, as well as trainer for IT solutions. In this regard, I have domain expertise in Application Performance Management (APM), Continuous Quality Assurance (CQA), IT Operations and End-to-end Monitoring to optimise Digital Performance and End-User Experience of applications.</p>
+          <p class="about-paragraph">Hi, I'm Matt. I am eager to support organisations and individuals on their digital journeys.</p>
+          <p class="about-paragraph">While leveraging technical capabilities and opportunities, I enjoy collaborating with cross-functional teams including diverse members and stakeholders. Moreover, as a <strong>Full Stack Developer</strong> I also enjoy designing, building and managing digital products and services hands-on.</p>
+          <p class="about-paragraph">I have an <strong>international background</strong>, cross-cultural understanding and global mindset resulting from both educational and professional experiences in several countries across Europe, North America and Asia. Professionally, I am experienced as <strong>Consultant</strong>, Operations and Project Manager, as well as trainer for IT solutions. In this regard, I have domain expertise in Application Performance Management (APM), Continuous Quality Assurance (CQA), IT Operations and End-to-end Monitoring to optimise Digital Performance and End-User Experience of applications.</p>
         </div>
 
         <div class="col-sm-6 col-md-6">
-          <img src='images/macbook_coding-screen.jpeg' class="code-image"/>
-          <p class="about-paragraph">In 2020, I decided to take some time to grow my technical expertise in <strong>Full Stack Coding</strong> and <strong>Data Science.</strong></p>
-          <p class="about-paragraph">I've completed <a href="https://www.lewagon.com/" class="about-link">Le Wagon</a> coding bootcamp in China (Shenzhen, Batch #410 - June 2020) to add technical skills in frontend and backend development to my profile (HTML, CSS, Bootstrap, Javascript, Ruby on Rails, SQL, etc.). During the bootcamp I have invented, designed, coded, deployed and publicly pitched a team projects, as well as personal web apps and a WeChat Mini Program incl. Rails API. In addition to the bootcamp projects, I have also taken further Software Engineering courses online and built a recommendation system in Java.</p>
-          <p class="about-paragraph">Currently, I am exporing opportunities to continue my professional career. Feel free to <a href="#section-5" class="about-link">reach out to me</a> and stay tuned for what's coming! 🚀</p>
+          <img src='images/macbook_coding-screen-square.jpg' class="code-image"/>
+          <p class="about-paragraph">In 2020, I took some time to expand my technical expertise in <strong>Full Stack Web Development</strong> and <strong>Software Engineering.</strong></p>
+          <p class="about-paragraph">I've completed the <a href="https://www.lewagon.com/" class="about-link">Le Wagon</a> coding bootcamp in China (Shenzhen, Batch #410 - June 2020) to add technical skills in frontend and backend development to my profile (HTML, CSS, Bootstrap, Javascript, Ruby on Rails, SQL, etc.). During the bootcamp I have invented, designed, coded, deployed and publicly pitched a team project, as well as personal web apps and a WeChat Mini Program incl. Rails API. In addition to the bootcamp, I have also taken further Software Engineering courses online and built a recommendation system in Java. See <a href="#portfolio" class="about-link">my portfolio below</a> for more details about my coding projects or visit <a href="https://github.com/MattMau88" class="about-link">my GitHub profile</a>.</p>
+          <p class="about-paragraph">Currently, I am exploring opportunities to continue my professional career. Feel free to <a href="#contact" class="about-link">connect with me</a> and stay tuned for what's coming! 🚀</p>
         </div>
 
       </div>
 
       <div class="row">
         <div class="button-custom mx-auto">
-          <a href="https://www.linkedin.com/in/matthias-mau/" class="btn btn-outline-secondary btn-lg" role="button">Check my Linkedin profile</a>
+          <a href="https://www.linkedin.com/in/matthias-mau/" target="_blank" class="btn btn-outline-secondary btn-lg" role="button">My Linkedin Profile</a>
+          <a href="https://github.com/MattMau88" target="_blank" class="btn btn-outline-secondary btn-lg" role="button">My GitHub Profile</a>
         </div>
       </div>
 
   </div>
  </section>
 
- <a id="section-2"></a>
+ <a id="skills"></a>
   <section id="skills">
       <div class="container">
         <h1 class="skills-title">Skills</h1>
@@ -118,13 +136,16 @@
           <p class="skills-item">HTML</p>
           <p class="skills-item">CSS</p>
           <p class="skills-item">Javascript</p>
+          <p class="skills-item">Bootstrap</p>
+          <p class="skills-item">WordPress</p>
           <p class="skills-item">Ruby</p>
           <p class="skills-item">Ruby on Rails</p>
           <p class="skills-item">Java</p>
           <p class="skills-item">WeChat Devtools</p>
-          <p class="skills-item">SQLite</p>
-          <p class="skills-item">PostgreSQL</p>
-          <p class="skills-item">(RESTful) APIs</p>
+          <p class="skills-item">SQL</p>
+          <p class="skills-item">Relational Databases</p>
+          <p class="skills-item">(REST) APIs</p>
+          <p class="skills-item">Continuous Integration & Continuous Delivery (CI/CD);</p>
           <p class="skills-item">Git</p>
           <p class="skills-item">GitHub</p>
           <p class="skills-item">Heroku</p>
@@ -132,25 +153,31 @@
 
         <h4 class="skills-subtitle">Design & Collaboration 👨🏻‍🎨 📱</h4>
         <div style="display: flex; flex-wrap: wrap;">
-            <p class="skills-item">UX/UI Design</p>
-            <p class="skills-item">Figma</p>
-            <p class="skills-item">Whimsical</p>
-            <p class="skills-item">Trello</p>
-            <p class="skills-item">MS Office</p>
-            <p class="skills-item">Google Apps</p>
-            <p class="skills-item">Apple iWork</p>
+          <p class="skills-item">Product Design</p>
+          <p class="skills-item">UX/UI Design</p>
+          <p class="skills-item">Figma</p>
+          <p class="skills-item">Whimsical</p>
+          <p class="skills-item">MS Office</p>
+          <p class="skills-item">Google Apps</p>
+          <p class="skills-item">Apple iWork</p>
+          <p class="skills-item">Trello</p>
+          <p class="skills-item">JIRA</p>
+          <p class="skills-item">Confluence</p>
+          <p class="skills-item">Slack</p>
         </div>
 
-        <h4 class="skills-subtitle">Business & Project Management 📈 🗓</h4>
+        <h4 class="skills-subtitle">Business, Product & Project Management 📈 🗓</h4>
         <div style="display: flex; flex-wrap: wrap;">
-            <p class="skills-item">Digital & Tech Consulting</p>
-            <p class="skills-item">Entrepreneuship & Strategy</p>
-            <p class="skills-item">IT Project Managment</p>
-            <p class="skills-item">Product Management</p>
-            <p class="skills-item">Financial Analytics</p>
-            <p class="skills-item">JIRA</p>
-            <p class="skills-item">Agile & Scrum</p>
-            <p class="skills-item">WeChat Mini Programs</p>
+          <p class="skills-item">Product Management</p>
+          <p class="skills-item">Digital & Tech Consulting</p>
+          <p class="skills-item">IT Project Managment</p>
+          <p class="skills-item">Agile & Scrum</p>
+          <p class="skills-item">WeChat Mini Programs</p>
+          <p class="skills-item">Entrepreneuship & Strategy</p>
+          <p class="skills-item">Business Development</p>
+          <p class="skills-item">Marketing</p>
+          <p class="skills-item">Recruiting</p>
+          <p class="skills-item">Financial Analytics</p>
         </div>
 
       </div>
@@ -164,11 +191,11 @@
             </div>
             <div class="acard">
               <img src="images/star.svg" alt="">
-                <p class="soft-skill-paragraph">Open & Team Minded</p>
+              <p class="soft-skill-paragraph">Solution Oriented</p>
             </div>
             <div class="acard">
               <img src="images/star.svg" alt="">
-              <p class="soft-skill-paragraph">Solution Oriented</p>
+                <p class="soft-skill-paragraph">Open & Team Minded</p>
             </div>
             <div class="acard">
               <img src="images/star.svg" alt="">
@@ -178,7 +205,7 @@
      </div>
   </section>
 
-  <a id="section-3"></a>
+  <a id="portfolio"></a>
   <section id="portfolio">
      <div class="container">
        <h1 class="portfolio-title">My Coding Portfolio</h1>
@@ -192,24 +219,25 @@
             <p>Platform to connect "Home Cookers" with "Pro Chefs", provision of recipe tutorials and ingredient delivery service.</p>
             <br>
             <p><strong>Team project</strong> - Web app creation from scratch using Ruby On Rails:</p>
-            <br>
             <ul>
-              <li><i class="fas fa-circle"></i> Mockup creation with Figma</li>
-              <li><i class="fas fa-circle"></i> Integration using HTML/CSS/JS</li>
-              <li><i class="fas fa-circle"></i> Backend in Ruby, DB with PostgreSQL, Deployed on Heroku</li>
-              <li><i class="fas fa-circle"></i> Pitched in front of tech and non tech audience ( >50 people)</li>
+              <li>Mockup creation with Figma</li>
+              <li>Integration using HTML/CSS/JavaScript</li>
+              <li>Backend in Ruby, DB with PostgreSQL, deployed on Heroku</li>
+              <li>Pitched in front of tech and non tech audience ( >50 people)</li>
             </ul>
+            <br>
+            <p><i>*Disclaimer: Demo app/site. No real product or company behind it*</i></p>
           </div>
           <div class="project-card--right">
-            <img class="image_project_card" src="/images/HomeChef.png" />
+            <img class="image_project_card" src="images/HomeChef.png" alt="">
             <ul class="project-card--right--cta">
               <li>
-                <a href="https://github.com/toralero/HomeChef" target="_blank" class="github-project">
+                <a href="https://github.com/MattMau88/HomeChef_v2" target="_blank" class="github-project">
                   <i class="fab fa-github-alt"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.homechef.site/" target="_blank" class="website-project">
+                <a href="https://home-chef-410.herokuapp.com/" target="_blank" class="website-project">
                   <span class="text-decoration">See live</span>
                 </a>
               </li>
@@ -224,17 +252,17 @@
             <p>Airbnb clone course project letting users offer and rent books from each other.</p>
             <br>
             <p><strong>Team project</strong> - Web app creation from scratch using Ruby On Rails:</p>
-            <br>
             <ul>
-              <li><i class="fas fa-circle"></i> Mockup creation with Figma</li>
-              <li><i class="fas fa-circle"></i> Integration using HTML/CSS/JS</li>
-              <li><i class="fas fa-circle"></i> Backend in Ruby, DB with PostgreSQL, Deployed on Heroku</li>
-              <li><i class="fas fa-circle"></i> Deployed on Heroku</li>
-              <li><i class="fas fa-circle"></i> Integration with Cloudinary and ActiveStorage</li>
+              <li>Mockup creation with Figma</li>
+              <li>Integration using HTML/CSS/JavaScript</li>
+              <li>Backend in Ruby, DB with PostgreSQL, deployed on Heroku</li>
+              <li>Integration with Cloudinary and ActiveStorage</li>
             </ul>
+            <br>
+            <p><i>*Disclaimer: Demo app/site. No real product or company behind it*</i></p>
           </div>
           <div class="project-card--right">
-            <img class="image_project_card" src="/images/RentaBook.png" />
+            <img class="image_project_card" src="images/RentaBook.png" alt="">
             <ul class="project-card--right--cta">
               <li>
                 <a href="https://github.com/MattMau88/RENT_A_BOOK" target="_blank" class="github-project">
@@ -252,20 +280,21 @@
 
         <div class="project-card">
           <div class="project-card--left">
-            <h4 class="project-header">FmC (WeChat Mini Program)</h4>
+            <h4 class="project-header">What the Hack (WeChat Mini Program)</h4>
             <br>
             <p>Mobile App / WeChat MP for users to share funny coding stories with each other.</p>
             <br>
             <p><strong>Individual project</strong> - WeChat Mini Program creation from scratch using WeChat Devtools and Ruby On Rails:</p>
-            <br>
             <ul>
-              <li><i class="fas fa-circle"></i> Frontend (WTML, WSS & JavaScript) developed with WeChat Devtools</li>
-              <li><i class="fas fa-circle"></i> Integrated the backend with an API developed with Rails</li>
-              <li><i class="fas fa-circle"></i> Not live due to restrictions for foreigners deploying WeChat Mps</li>
+              <li>Frontend (WXML, WXSS & JavaScript) developed with WeChat Devtools</li>
+              <li>Integrated the backend with an API developed in Rails</li>
+              <li>Not live due to restrictions for foreigners deploying WeChat MPs</li>
             </ul>
+            <br>
+            <p><i>*Disclaimer: Demo app/site. No real product or company behind it*</i></p>
           </div>
           <div class="project-card--right">
-            <img class="image_project_card" src="/images/WeChat_FmC.png" />
+            <img class="image_project_card" src="images/wechat_wth.png" alt="">
             <ul class="project-card--right--cta">
               <li>
                 <a href="https://github.com/MattMau88/WeChat_FmC_Frontend" target="_blank" class="website-project">
@@ -281,6 +310,65 @@
           </div>
         </div>
 
+        <div class="project-card">
+          <div class="project-card--left">
+            <h4 class="project-header">Java Movie Recommender</h4>
+            <br>
+            <p>Ever wonder how Netflix decides what movies to recommend for you? Or how Amazon recommends books?</p>
+            <br>
+            <p><strong>Individual course project</strong> - Java programming used to create a simple recommendation system, that given input files on user ratings and movie titles is able to:</p>
+            <ul>
+              <li>Read in and parse data into lists and maps</li>
+              <li>Calculate average ratings</li>
+              <li>Calculate how similar a given rater is to another user based on ratings</li>
+              <li>Recommend movies to a given user based on ratings</li>
+            </ul>
+            <br>
+            <p><i>*Disclaimer: Demo app/site. No real product or company behind it*</i></p>
+          </div>
+          <div class="project-card--right">
+            <img class="image_project_card" src="images/java-recommder-temp.png" alt="">
+            <ul class="project-card--right--cta">
+              <li>
+                <a href="https://github.com/MattMau88/Java_Movie_Recommender" target="_blank" class="website-project">
+                  <span class="text-decoration">Backend Code</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+         <div class="project-card">
+          <div class="project-card--left">
+            <h4 class="project-header">Fitness Program Landing Page</h4>
+            <br>
+            <p>Simple, static landing page with a theoretical call-to-action for user engagement, demonstrating my personal passion for sports.</p>
+            <br>
+            <p><strong>Individual course challenge</strong> - Quickly designed and written within less than 2 hours in HTML and CSS during the fullstack coding bootcamp at Le Wagon in May 2020:</p>
+            <ul>
+              <li>HTML & CSS</li>
+              <li>Landing page with simple, clear value proposition</li>
+              <li>Easy call-to-action</li>
+            </ul>
+            <br>
+            <p><i>*Disclaimer: Demo app/site. No real product or company behind it*</i></p>
+          </div>
+          <div class="project-card--right">
+            <img class="image_project_card" src="images/fitness-landing.png" alt="">
+            <ul class="project-card--right--cta">
+              <li>
+                <a href="https://github.com/MattMau88/landing/tree/gh-pages" target="_blank" class="github-project">
+                  <i class="fab fa-github-alt"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://mattmau88.github.io/landing/" target="_blank" class="website-project">
+                  <span class="text-decoration">See live</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
     </div>
   </section>
@@ -288,7 +376,7 @@
 
 
   <section id="interest">
-    <a id="section-4"></a>
+    <a id="interests"></a>
     <div class="container">
       <h1 class="interest-title">Interests</h1>
        <div class="row">
@@ -320,14 +408,14 @@
 
 
   <section id="contact">
-  <a id="section-5"></a>
+  <a id="contact"></a>
     <div class="container">
       <h1 class="contact-title">Contact</h1>
       <div class="row">
 
          <div class="col-md-4 col-sm-4" style="padding-bottom: 10px;">
           <div class="acard">
-            <a href="mailto:matthias.mau@outlook.com.com?Subject=Hello" target="_top">
+            <a href="mailto:matthias.mau@outlook.com?Subject=[Website Contact Request]" target="_top">
               <i class="far fa-envelope" id="contact-icon"></i>
             </a>
           </div>
@@ -355,16 +443,16 @@
   </section>
 
   <div class="footer">
-    <p>Designed & Coded by Matthias Mau</p>
-    <p>Last updated: June 2020</p>
+    <p>Designed & coded by Matthias Mau</p>
+    <p>Last updated: July 2020</p>
   </div>
 
 
   <!-- Javascript -->
 
   <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js'></script>
-  <script src="js/main.js"></script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
 
 
